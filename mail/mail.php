@@ -137,7 +137,7 @@ function sendRequestCode($userName,$gmail,$randomCode) {
         $mail->Port = 587;                                    // TCP port to connect to
      
         //Recipients
-        $mail->setFrom('abctien2003@gmail.com', 'Fuho');
+        $mail->setFrom('abctien2003@gmail.com', 'LLD');
         $mail->addAddress($gmail, $userName);     // Add a recipient
         // $mail->addAddress('ellen@example.com');               // Name is optional
         // $mail->addReplyTo('info@example.com', 'Information');

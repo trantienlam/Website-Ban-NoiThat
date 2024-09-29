@@ -30,7 +30,7 @@
     <div class="navigation">
         <ul>
             <li>
-                <img  src="./assets/images/fuho_logo.png" alt="" class="logo">
+                <img  src="./assets/images/giakhanh.png" alt="" class="logo">
             </li>
             <li>
                 <a href="?quanly=admin&action=overview">
@@ -113,7 +113,7 @@
             </div>
 
             <div class="user">
-                <img src="assets/imgs/customer01.jpg" alt="">
+                <img src="./assets/images/anh.png" alt="image">
             </div>
         </div>
 

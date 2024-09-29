@@ -102,7 +102,7 @@ $Slider = new Slider();
                     <a href="#" class="brand-link">
                         <img src="./assets/images/brand 1.webp" alt="">
                     </a>
-                </div>
+                </div>                 
                 <div class="brand">
                     <a href="#" class="brand-link">
                         <img src="./assets/images/brand 2.webp" alt="">

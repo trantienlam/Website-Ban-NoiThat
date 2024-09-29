@@ -3,7 +3,7 @@ class DB {
     private $servername = "localhost";
     private $username = "root";
     private $password = '';
-    private $dbname = "fuho";
+    private $dbname = "lld";
 
     protected function connect () {
         try {

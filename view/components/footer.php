@@ -5,17 +5,17 @@
       <ul>
         <li>
           <span>Địa chỉ: </span>
-          173 Quang Trung, quận 12, <br>Tp. Hồ Chí Minh
+          173 Quang Trungaed, quận 1231, <br>Tp. Hồ Chí Minhx
         </li>
 
         <li>
           <span>Hotline: </span>
-          097-373-6666
+          097-37399-63226
         </li>
 
         <li>
           <span>Email : </span>
-          fuhoshop@gmail.com
+          tranminhtu@gmail.com
         </li>
       </ul>
     </div>

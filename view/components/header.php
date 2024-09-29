@@ -6,11 +6,14 @@ $User = new User();
 $Category = new Category();
 $Cart = new Cart();
 ?>
+
 <header>
   <!-- Begin Sub-Header -->
   <div class="sub-header">
     <div class="sub-header-img">
-      <img src="./assets/images/fuho_logo.png" alt="" class="logo" />
+      <a href="http://localhost/Website/index.php">
+      <img src="./assets/images/giakhanh.png" alt="" class="logo" />
+     </a>
     </div>
     <!-- Menu Bar -->
     <label for="menu-mobile-input" class="menu_bar_btn">
@@ -250,14 +253,14 @@ $Cart = new Cart();
       </div>
 
 
-      <div class="icon">
-        <form action="index.php?quanly=cuahang" method = "POST" class="search-btn">
-          <a href="#" class="menu_link"><i class="fa-solid fa-magnifying-glass"></i></a>
-          <div class="search-txt">
-            <input name="searchName" type="text" placeholder="Nhập tên sản phẩm" />
-          </div>
-        </form>
-      </div>
+        <div class="icon">
+          <form action="index.php?quanly=cuahang" method = "POST" class="search-btn">
+            <a href="#" class="menu_link"><i class="fa-solid fa-magnifying-glass"></i></a>
+            <div class="search-txt">
+              <input name="searchName" type="text" placeholder="Nhập tên sản phẩm" />/
+            </div>
+          </form>
+        </div>
       <div class="icon icon-user">
         <a href="index.php?quanly=<?php echo Session::getValueSession('user') ? 'user' : 'login' ?>" class="menu_link <?php echo Session::getValueSession('user') ? 'login-success' : '' ?>">
           <i class="fa-solid fa-user"></i>
